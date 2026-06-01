@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./Main.css";
+import "./main.css";
 
 export default function Main() {
   const [weather, setWeather] = useState(null);
