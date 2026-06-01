@@ -17,8 +17,8 @@ export default function App() {
 
   return (
     <div className="App">
-      <Search />
-      <Main />
+      <Search weatherData={weatherData} />
+      <Main weatherData={weatherData} />
       <Footer />
     </div>
   );
