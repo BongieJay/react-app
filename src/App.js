@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Search from "./Search";
-import Main from "./Main";
+import Main from "./Main.js";
 import Footer from "./Footer";
 
 export default function App() {
